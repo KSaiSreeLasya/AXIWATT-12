@@ -1,0 +1,6 @@
+{
+  "name": "AxiWatt Industrial BESS",
+  "description": "Precision engineered Battery Energy Storage Systems (BESS) for grid stability and industrial-scale energy autonomy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
