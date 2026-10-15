@@ -5,7 +5,7 @@ export const ASSETS = {
   // 1st Image: Home Assets
   homeHeroTelecomTower: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
   homeOurCompanySolar: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
-  homeSustainabilityRiver: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80&w=1200',
+  homeSustainabilityRiver: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
   homeGigaFactoryAerial: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfmK-L58UAiUZpd_a12Ie07atQ9EFpVALYQv0y66gTVZ6eAb7XfZtjq_s5QR7ZM1bt3tIkpq0If6M7r3PF6441yOfn4B-nQDbn3wnldLgBWAZt43xzM87nphDz4puGgIK2SsD4A5yjTEEMWZDVzJlm9DoICZhTvHbjnSPnE6JprWdmOJc_beQFWLnOAyyBa9ODRfYn4uhUyjDm_XRDVxwtPInbdK7Hmnfw3G4Nj0fmxLA86tGLr0vFtw',
 
   // 2nd Image: Technology Assets
@@ -19,8 +19,8 @@ export const ASSETS = {
 
   // 4th Image: Automotive Assets
   autoHeroBike: '/src/assets/images/auto_ev_battery_platform_1791969791200.jpg',
-  autoBatteryPack: 'https://images.unsplash.com/photo-1558441719-72418e77a28e?auto=format&fit=crop&q=80&w=1200',
-  autoEvPlugBanner: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1600',
+  autoBatteryPack: '/src/assets/images/tech_battery_cell_bms_1791969788935.jpg',
+  autoEvPlugBanner: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=1600',
 
   // 5th Image: Telecom Assets
   telecomHeroTowerField: 'https://images.unsplash.com/photo-1520690214124-2405c5217036?auto=format&fit=crop&q=80&w=1200',
@@ -37,13 +37,13 @@ export const ASSETS = {
   leadInverterChassis: '/src/assets/images/bess_rack_lead_replacement_1791969790515.jpg',
 
   // 8th Image: Future Technologies Assets
-  futureHeroSolarSunset: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&q=80&w=1200',
+  futureHeroSolarSunset: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1200',
   futureMedicalCare: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000',
   futureDefenseTactical: 'https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=1000',
   futureSmartGrid: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1000',
 
   // News & Updates
-  updateMou1: 'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&q=80&w=600',
+  updateMou1: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=600',
   updateFactory2: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=600',
   updateRecycle3: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=600',
 
