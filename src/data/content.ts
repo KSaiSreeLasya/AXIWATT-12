@@ -43,9 +43,6 @@ export const ASSETS = {
   futureSmartGrid: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1000',
 
   // News & Updates
-  updateMou1: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=600',
-  updateFactory2: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=600',
-  updateRecycle3: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=600',
 
   // Products, Manufacturing, Sustainability & Contact Screen Assets
   productsHeroBESS: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
@@ -140,21 +137,21 @@ export const HOME_UPDATES = [
     id: 'up-1',
     date: '28 Aug, 2025',
     title: "AxiWatt and Strategyz Inc. Join Hands for India's EV Transformation",
-    image: ASSETS.updateMou1,
+    image: ASSETS.autoHeroBike,
     summary: 'Strategic memorandum signed to accelerate rapid-charging lithium pack deployments across commercial transport fleets.',
   },
   {
     id: 'up-2',
     date: '18 Apr, 2023',
     title: 'Strategic Cooperation Between AxiWatt and Tianneng Group to Drive Sustainable Growth',
-    image: ASSETS.updateFactory2,
+    image: ASSETS.manufacturingGigaFactory,
     summary: 'Deep collaboration on high-density cell chemistry supply chains and multi-megawatt container storage integration.',
   },
   {
     id: 'up-3',
     date: '28 Aug, 2025',
     title: 'Strategic Partnership Between AxiWatt and ACE Green Recycling to Advance Sustainability',
-    image: ASSETS.updateRecycle3,
+    image: ASSETS.homeOurCompanySolar,
     summary: 'Closed-loop battery recycling initiative recovering 98% of critical cathode active materials from spent packs.',
   },
 ];
