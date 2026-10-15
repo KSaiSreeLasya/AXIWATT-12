@@ -23,8 +23,7 @@ export const ASSETS = {
   autoEvPlugBanner: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=1600',
 
   // 5th Image: Telecom Assets
-  telecomHeroTowerField: 'https://images.unsplash.com/photo-1520690214124-2405c5217036?auto=format&fit=crop&q=80&w=1200',
-  telecomPageHero: 'https://cdn.builder.io/api/v1/image/assets%2Fa16b4d9292da4a3688fbc1ccfd166262%2F19baddf1cb0b45218a6b468d2ad9dec4?format=webp&width=800&height=1200',
+  telecomPageHero: 'https://cdn.builder.io/api/v1/image/assets%2Fa16b4d9292da4a3688fbc1ccfd166262%2Fe3d8cc785a40488096f4e50e78199a5e?format=webp&width=800&height=1200',
   telecomRackModule: 'https://lh3.googleusercontent.com/aida-public/AB6AXuByZ2j2ALTWm0xq0ymAKrnBMhPq8lUv0JTH5LVp8nhOFGQG6FJROhzzfXk1XtAfpGKgDY43hFmdsqcovLemLH6UdbUoos0Q2mEpi3tJBu8kBi4to2pGMVvEAqzBrVZTU4Td8_BBSnaohcEZwP7Ku53GjNCn-z2FS7vkV7pZ_zfxaPta6jWI7JY5ViVrdeHt8K1Nomf-38lCENuub-0dW13oyj-R3gw5r0ngX4Lr_bkwKWD6rWHN3_LaYA',
   telecomSunsetBanner: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
 
@@ -107,7 +106,7 @@ export const VERTICALS_LIST = [
     name: 'Telecom',
     tagline: 'Empowering a connected world',
     icon: 'cell_tower',
-    image: ASSETS.telecomHeroTowerField,
+    image: ASSETS.telecomPageHero,
     page: 'telecom' as const,
   },
   {
