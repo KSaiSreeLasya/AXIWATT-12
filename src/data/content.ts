@@ -106,7 +106,7 @@ export const VERTICALS_LIST = [
     name: 'Telecom',
     tagline: 'Empowering a connected world',
     icon: 'cell_tower',
-    image: ASSETS.leadNova24V,
+    image: ASSETS.telecomHeroTowerField,
     page: 'telecom' as const,
   },
   {
