@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { PageId } from './types';
+import { SEO_PAGES, applySeo, pagePath } from './data/seo';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { QuoteModal } from './components/QuoteModal';
@@ -36,39 +37,29 @@ export default function App() {
   });
   const [toast, setToast] = useState<string | null>(null);
 
-  // Sync with URL hash if present
   useEffect(() => {
-    const handleHash = () => {
+    const syncFromUrl = () => {
       const hash = window.location.hash.replace('#', '').toLowerCase();
-      const validPages: PageId[] = [
-        'home',
-        'overview',
-        'about',
-        'technology',
-        'verticals',
-        'automotive',
-        'telecom',
-        'bess',
-        'lead-replacement',
-        'future-technologies',
-        'products',
-        'manufacturing',
-        'sustainability',
-        'contact',
-      ];
-      if (validPages.includes(hash as PageId)) {
-        setCurrentPage(hash as PageId);
+      if (hash && pagePath(hash as PageId) !== '/') {
+        window.history.replaceState(null, '', pagePath(hash as PageId));
       }
+      const slug = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
+      const page = (Object.keys(SEO_PAGES) as PageId[]).find((id) => pagePath(id) === `/${slug}`);
+      setCurrentPage(page ?? 'home');
     };
 
-    handleHash();
-    window.addEventListener('hashchange', handleHash);
-    return () => window.removeEventListener('hashchange', handleHash);
+    syncFromUrl();
+    window.addEventListener('popstate', syncFromUrl);
+    return () => window.removeEventListener('popstate', syncFromUrl);
   }, []);
+
+  useEffect(() => {
+    applySeo(currentPage);
+  }, [currentPage]);
 
   const handleNavigate = (page: PageId) => {
     setCurrentPage(page);
-    window.location.hash = page === 'home' || page === 'overview' ? '' : `#${page}`;
+    window.history.pushState(null, '', pagePath(page));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

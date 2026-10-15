@@ -53,11 +53,11 @@ export const TelecomScreen: React.FC<TelecomScreenProps> = ({
             </div>
           </div>
 
-          {/* Right Hero Image (Telecom Towers in open field under blue sky) */}
+          {/* Right Hero Image */}
           <div className="lg:col-span-5 rounded-2xl overflow-hidden h-[280px] sm:h-[340px] shadow-sm relative">
             <img
-              src={ASSETS.telecomHeroTowerField}
-              alt="Telecom transmission tower field with outdoor battery shelters"
+              src={ASSETS.telecomPageHero}
+              alt="AxiWatt telecom battery solution"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />

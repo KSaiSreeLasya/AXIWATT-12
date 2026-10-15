@@ -5,7 +5,7 @@ export const ASSETS = {
   // 1st Image: Home Assets
   homeHeroTelecomTower: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
   homeOurCompanySolar: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
-  homeSustainabilityRiver: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&q=80&w=1200',
+  homeSustainabilityRiver: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
   homeGigaFactoryAerial: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfmK-L58UAiUZpd_a12Ie07atQ9EFpVALYQv0y66gTVZ6eAb7XfZtjq_s5QR7ZM1bt3tIkpq0If6M7r3PF6441yOfn4B-nQDbn3wnldLgBWAZt43xzM87nphDz4puGgIK2SsD4A5yjTEEMWZDVzJlm9DoICZhTvHbjnSPnE6JprWdmOJc_beQFWLnOAyyBa9ODRfYn4uhUyjDm_XRDVxwtPInbdK7Hmnfw3G4Nj0fmxLA86tGLr0vFtw',
 
   // 2nd Image: Technology Assets
@@ -19,11 +19,11 @@ export const ASSETS = {
 
   // 4th Image: Automotive Assets
   autoHeroBike: '/src/assets/images/auto_ev_battery_platform_1791969791200.jpg',
-  autoBatteryPack: 'https://images.unsplash.com/photo-1558441719-72418e77a28e?auto=format&fit=crop&q=80&w=1200',
-  autoEvPlugBanner: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1600',
+  autoBatteryPack: '/src/assets/images/tech_battery_cell_bms_1791969788935.jpg',
+  autoEvPlugBanner: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=1600',
 
   // 5th Image: Telecom Assets
-  telecomHeroTowerField: 'https://images.unsplash.com/photo-1520690214124-2405c5217036?auto=format&fit=crop&q=80&w=1200',
+  telecomPageHero: 'https://cdn.builder.io/api/v1/image/assets%2Fa16b4d9292da4a3688fbc1ccfd166262%2Fe3d8cc785a40488096f4e50e78199a5e?format=webp&width=800&height=1200',
   telecomRackModule: 'https://lh3.googleusercontent.com/aida-public/AB6AXuByZ2j2ALTWm0xq0ymAKrnBMhPq8lUv0JTH5LVp8nhOFGQG6FJROhzzfXk1XtAfpGKgDY43hFmdsqcovLemLH6UdbUoos0Q2mEpi3tJBu8kBi4to2pGMVvEAqzBrVZTU4Td8_BBSnaohcEZwP7Ku53GjNCn-z2FS7vkV7pZ_zfxaPta6jWI7JY5ViVrdeHt8K1Nomf-38lCENuub-0dW13oyj-R3gw5r0ngX4Lr_bkwKWD6rWHN3_LaYA',
   telecomSunsetBanner: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
 
@@ -37,15 +37,12 @@ export const ASSETS = {
   leadInverterChassis: '/src/assets/images/bess_rack_lead_replacement_1791969790515.jpg',
 
   // 8th Image: Future Technologies Assets
-  futureHeroSolarSunset: 'https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&q=80&w=1200',
+  futureHeroSolarSunset: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1200',
   futureMedicalCare: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000',
   futureDefenseTactical: 'https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=1000',
   futureSmartGrid: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1000',
 
   // News & Updates
-  updateMou1: 'https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&q=80&w=600',
-  updateFactory2: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=600',
-  updateRecycle3: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=600',
 
   // Products, Manufacturing, Sustainability & Contact Screen Assets
   productsHeroBESS: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
@@ -106,7 +103,7 @@ export const VERTICALS_LIST = [
     name: 'Telecom',
     tagline: 'Empowering a connected world',
     icon: 'cell_tower',
-    image: ASSETS.telecomHeroTowerField,
+    image: ASSETS.telecomPageHero,
     page: 'telecom' as const,
   },
   {
@@ -140,21 +137,21 @@ export const HOME_UPDATES = [
     id: 'up-1',
     date: '28 Aug, 2025',
     title: "AxiWatt and Strategyz Inc. Join Hands for India's EV Transformation",
-    image: ASSETS.updateMou1,
+    image: ASSETS.autoHeroBike,
     summary: 'Strategic memorandum signed to accelerate rapid-charging lithium pack deployments across commercial transport fleets.',
   },
   {
     id: 'up-2',
     date: '18 Apr, 2023',
     title: 'Strategic Cooperation Between AxiWatt and Tianneng Group to Drive Sustainable Growth',
-    image: ASSETS.updateFactory2,
+    image: ASSETS.manufacturingGigaFactory,
     summary: 'Deep collaboration on high-density cell chemistry supply chains and multi-megawatt container storage integration.',
   },
   {
     id: 'up-3',
     date: '28 Aug, 2025',
     title: 'Strategic Partnership Between AxiWatt and ACE Green Recycling to Advance Sustainability',
-    image: ASSETS.updateRecycle3,
+    image: ASSETS.homeOurCompanySolar,
     summary: 'Closed-loop battery recycling initiative recovering 98% of critical cathode active materials from spent packs.',
   },
 ];
