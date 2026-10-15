@@ -3,14 +3,14 @@ export const ASSETS = {
   logo: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAdpfUPp7PQbTiYL46rZ2B1hQobtm4RyWKhrZkVZEBatxi7QJD6oYEHeWp0DheSgRV1pilfrMqeEdK7QZ_uGwWKfN4_ybOKF1NWtF5acHXnRbScXbuTD3uasKqGEbKzi8cVDhvkBImB0ljCmLUJxrsbmm4S7lgyzA6RNar9c-j9hFs313QrcE1qJ5Ygg-YTakzC_A0m50p1bIii9rqhjcF-8jYJNZND-7AbSStyQxmY5ZdOdZKrfziAiNYT6prP07YJl0o',
 
   // 1st Image: Home Assets
-  homeHeroTelecomTower: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
-  homeOurCompanySolar: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
-  homeSustainabilityRiver: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
+  homeHeroTelecomTower: '/images/hero_clean_energy_bess_1791969765441.jpg',
+  homeOurCompanySolar: '/images/eco_green_energy_landscape_1791969788899.jpg',
+  homeSustainabilityRiver: '/images/eco_green_energy_landscape_1791969788899.jpg',
   homeGigaFactoryAerial: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfmK-L58UAiUZpd_a12Ie07atQ9EFpVALYQv0y66gTVZ6eAb7XfZtjq_s5QR7ZM1bt3tIkpq0If6M7r3PF6441yOfn4B-nQDbn3wnldLgBWAZt43xzM87nphDz4puGgIK2SsD4A5yjTEEMWZDVzJlm9DoICZhTvHbjnSPnE6JprWdmOJc_beQFWLnOAyyBa9ODRfYn4uhUyjDm_XRDVxwtPInbdK7Hmnfw3G4Nj0fmxLA86tGLr0vFtw',
 
   // 2nd Image: Technology Assets
-  techHeroEcoHouse: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
-  techCellCutaway: '/src/assets/images/tech_battery_cell_bms_1791969788935.jpg',
+  techHeroEcoHouse: '/images/eco_green_energy_landscape_1791969788899.jpg',
+  techCellCutaway: '/images/tech_battery_cell_bms_1791969788935.jpg',
   techCellXRay: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD5hA2-PMPdZe-nVg0eY265z7A6AGoKlPaSwz8CGpwwILrcOihePwRHV6VXpvvXLkPzv-wpgZV7LommTwm2ia9acFA9rVjFV74rMay5cjCBu8hzKxRvHkO_omBto6wHlbgxJgxPvWG8OGeKMeAzUw2FcRZxQjJyEj68qi9Ah15x_soSZ7JByc5YHK1OWEWghJFsDvxpORmIBjX4ZxPNN7lpzWpRWXBtzYyZEe4oVazhjymIRyBohWBrgQ',
   techSmartBmsPcb: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDyl-qKqK3TDCstHg7JUYvAZEhueZio3a7XxOIr2rzCFVs-1Ha6LaDwAHfoYWuJeAByIV_l-pRB-XcAU-QqaOtUDviEkykJLzZOU2p72jqJHp9j4Muuk7l9OXz06_7OHCH-m7IEhPXa7shYegrR9m5BbbmdbGfpeHBZMnxBp7FAB6afuup-ZkVqUzW5L0tm0juwf1xvj8hMm4n_17Yqh5eC4dmjtais1W1f3Bi3O1DZ8WqgkrE8PEET2Q',
   techCoolingPlate: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=1200',
@@ -18,23 +18,23 @@ export const ASSETS = {
   techTestLab: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
 
   // 4th Image: Automotive Assets
-  autoHeroBike: '/src/assets/images/auto_ev_battery_platform_1791969791200.jpg',
-  autoBatteryPack: '/src/assets/images/tech_battery_cell_bms_1791969788935.jpg',
+  autoHeroBike: '/images/auto_ev_battery_platform_1791969791200.jpg',
+  autoBatteryPack: '/images/tech_battery_cell_bms_1791969788935.jpg',
   autoEvPlugBanner: 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&q=80&w=1600',
 
   // 5th Image: Telecom Assets
   telecomPageHero: 'https://cdn.builder.io/api/v1/image/assets%2Fa16b4d9292da4a3688fbc1ccfd166262%2Fe3d8cc785a40488096f4e50e78199a5e?format=webp&width=800&height=1200',
   telecomRackModule: 'https://lh3.googleusercontent.com/aida-public/AB6AXuByZ2j2ALTWm0xq0ymAKrnBMhPq8lUv0JTH5LVp8nhOFGQG6FJROhzzfXk1XtAfpGKgDY43hFmdsqcovLemLH6UdbUoos0Q2mEpi3tJBu8kBi4to2pGMVvEAqzBrVZTU4Td8_BBSnaohcEZwP7Ku53GjNCn-z2FS7vkV7pZ_zfxaPta6jWI7JY5ViVrdeHt8K1Nomf-38lCENuub-0dW13oyj-R3gw5r0ngX4Lr_bkwKWD6rWHN3_LaYA',
-  telecomSunsetBanner: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
+  telecomSunsetBanner: '/images/hero_clean_energy_bess_1791969765441.jpg',
 
   // 6th Image: BESS Assets
-  bessHeroFacade: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
+  bessHeroFacade: '/images/hero_clean_energy_bess_1791969765441.jpg',
   bessCabinetDualRack: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBeTGxctsXLwDRF2iOM85LsOjPpIYVu1zRCqiOdktamLkTr7b2F1kX6PKTVCHnPR8Erls3W_5xm2dDm2rcVQfQ9feU0bgqaaYZG6xW15HzypXnof51_l-q9uNkjZyPiemfTk2PzYwncGqyXqxhXWU3q1X-nFVZCg8dJic7N5bcNGAdhEMbwF-XxLK_jFmEXDcQfNmIdO-L4HXwwR9XLhrZG82LTQUxEU_GY-upv9vvPHWnUYadvlMh3w',
   bessGoldenHourBanner: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDtPI4BuE4jW_8eM5_CJOInL01Wl_7AVA1VnSOsiqhoVqqL4Ibncy602ORprNjjNEF7NTI7DGSxZP6oDaliEMhH1MLxm6QEwop0nWe8xSakvHHpXnNlLznVvfyJuZRJeCHGQy8QaLQ8hIfv4UPqvMhbZ1G0w0DhVsXyOBWKVOwpm8T8aN2vj8JHarcYfqSNOvCn70j8ZPN8ND8VjettPebq60XwFXRvRiLkSojwTKGJJ25eGw1FyOztag',
 
   // 7th Image: Lead Replacement Assets
-  leadNova24V: '/src/assets/images/bess_rack_lead_replacement_1791969790515.jpg',
-  leadInverterChassis: '/src/assets/images/bess_rack_lead_replacement_1791969790515.jpg',
+  leadNova24V: '/images/bess_rack_lead_replacement_1791969790515.jpg',
+  leadInverterChassis: '/images/bess_rack_lead_replacement_1791969790515.jpg',
 
   // 8th Image: Future Technologies Assets
   futureHeroSolarSunset: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=1200',
@@ -45,19 +45,19 @@ export const ASSETS = {
   // News & Updates
 
   // Products, Manufacturing, Sustainability & Contact Screen Assets
-  productsHeroBESS: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
+  productsHeroBESS: '/images/hero_clean_energy_bess_1791969765441.jpg',
   vstruc40hc: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBeTGxctsXLwDRF2iOM85LsOjPpIYVu1zRCqiOdktamLkTr7b2F1kX6PKTVCHnPR8Erls3W_5xm2dDm2rcVQfQ9feU0bgqaaYZG6xW15HzypXnof51_l-q9uNkjZyPiemfTk2PzYwncGqyXqxhXWU3q1X-nFVZCg8dJic7N5bcNGAdhEMbwF-XxLK_jFmEXDcQfNmIdO-L4HXwwR9XLhrZG82LTQUxEU_GY-upv9vvPHWnUYadvlMh3w',
-  vstruc20: '/src/assets/images/hero_clean_energy_bess_1791969765441.jpg',
+  vstruc20: '/images/hero_clean_energy_bess_1791969765441.jpg',
   vmodCore: 'https://lh3.googleusercontent.com/aida-public/AB6AXuByZ2j2ALTWm0xq0ymAKrnBMhPq8lUv0JTH5LVp8nhOFGQG6FJROhzzfXk1XtAfpGKgDY43hFmdsqcovLemLH6UdbUoos0Q2mEpi3tJBu8kBi4to2pGMVvEAqzBrVZTU4Td8_BBSnaohcEZwP7Ku53GjNCn-z2FS7vkV7pZ_zfxaPta6jWI7JY5ViVrdeHt8K1Nomf-38lCENuub-0dW13oyj-R3gw5r0ngX4Lr_bkwKWD6rWHN3_LaYA',
-  vmodEdge: '/src/assets/images/tech_battery_cell_bms_1791969788935.jpg',
-  vhomeInverter: '/src/assets/images/bess_rack_lead_replacement_1791969790515.jpg',
+  vmodEdge: '/images/tech_battery_cell_bms_1791969788935.jpg',
+  vhomeInverter: '/images/bess_rack_lead_replacement_1791969790515.jpg',
   manufacturingGigaFactory: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfmK-L58UAiUZpd_a12Ie07atQ9EFpVALYQv0y66gTVZ6eAb7XfZtjq_s5QR7ZM1bt3tIkpq0If6M7r3PF6441yOfn4B-nQDbn3wnldLgBWAZt43xzM87nphDz4puGgIK2SsD4A5yjTEEMWZDVzJlm9DoICZhTvHbjnSPnE6JprWdmOJc_beQFWLnOAyyBa9ODRfYn4uhUyjDm_XRDVxwtPInbdK7Hmnfw3G4Nj0fmxLA86tGLr0vFtw',
   manufacturingRobotics: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&q=80&w=1000',
   manufacturingWelding: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=1000',
-  manufacturingXRay: '/src/assets/images/tech_battery_cell_bms_1791969788935.jpg',
+  manufacturingXRay: '/images/tech_battery_cell_bms_1791969788935.jpg',
   manufacturingScientist: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=1000',
   manufacturingMolecules: 'https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&q=80&w=1000',
-  sustainabilityAerialFacility: '/src/assets/images/eco_green_energy_landscape_1791969788899.jpg',
+  sustainabilityAerialFacility: '/images/eco_green_energy_landscape_1791969788899.jpg',
   sustainabilityRecyclingLab: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=1000',
   contactControllerBoard: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDyl-qKqK3TDCstHg7JUYvAZEhueZio3a7XxOIr2rzCFVs-1Ha6LaDwAHfoYWuJeAByIV_l-pRB-XcAU-QqaOtUDviEkykJLzZOU2p72jqJHp9j4Muuk7l9OXz06_7OHCH-m7IEhPXa7shYegrR9m5BbbmdbGfpeHBZMnxBp7FAB6afuup-ZkVqUzW5L0tm0juwf1xvj8hMm4n_17Yqh5eC4dmjtais1W1f3Bi3O1DZ8WqgkrE8PEET2Q',
   contactMapFeed: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=1000',
