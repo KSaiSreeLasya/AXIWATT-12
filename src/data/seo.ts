@@ -14,44 +14,44 @@ export const SEO_PAGES: Partial<Record<PageId, SeoEntry>> = {
   home: {
     name: 'Home',
     path: '/',
-    title: 'AxiWatt | Battery Energy Storage, EV and Telecom Batteries',
+    title: 'AXIWATT | Battery Energy Storage & Power Solutions',
     description:
-      'AxiWatt makes BESS, EV, telecom and lead-replacement batteries built for grid stability and long operating life.',
+      'Explore AXIWATT battery solutions for energy storage, electric vehicles and telecom applications. Discover reliable power technologies for diverse needs.',
   },
   technology: {
     name: 'Technology',
     path: '/technology',
-    title: 'Battery Technology | AxiWatt',
+    title: 'Battery Technology & Energy Innovation | AXIWATT',
     description:
-      'Explore the cell chemistry, battery management and safety engineering behind AxiWatt battery systems.',
+      'Explore battery technologies and energy solutions for modern power applications. Learn how AXIWATT supports evolving energy storage and mobility needs.',
   },
   verticals: {
     name: 'Industries',
     path: '/verticals',
-    title: 'Industries We Serve | AxiWatt',
+    title: 'Battery Solutions for Multiple Industries | AXIWATT',
     description:
-      'See how AxiWatt batteries support automotive, telecom, energy storage, lead replacement and future mobility markets.',
+      'Explore battery and energy solutions for industrial, telecom, electric mobility and energy storage applications. Find solutions for your power requirements.',
   },
   automotive: {
     name: 'Automotive',
     path: '/automotive',
-    title: 'EV and Automotive Batteries | AxiWatt',
+    title: 'Electric Vehicle Battery Packs | AXIWATT',
     description:
-      'Battery packs for electric two-wheelers and other EV mobility applications, engineered for safe, efficient performance.',
+      'Discover battery pack solutions for electric mobility applications. Explore EV battery technologies, product specifications and power options from AXIWATT.',
   },
   telecom: {
     name: 'Telecom',
     path: '/telecom',
-    title: 'Telecom Battery Solutions | AxiWatt',
+    title: 'Telecom Backup Batteries & Power Solutions | AXIWATT',
     description:
-      'Reliable telecom backup batteries for towers and network sites, with long cycle life and remote monitoring.',
+      'Explore AXIWATT telecom battery solutions for backup power and telecommunications infrastructure. Find suitable battery options for telecom power needs.',
   },
   bess: {
     name: 'BESS',
     path: '/bess',
-    title: 'Battery Energy Storage Systems (BESS) | AxiWatt',
+    title: 'Battery Energy Storage Systems | AXIWATT',
     description:
-      'Utility and commercial battery energy storage systems that stabilise the grid, shift peak load and add resilience.',
+      'Explore battery energy storage systems from AXIWATT for reliable power storage, energy management and commercial and industrial energy applications.',
   },
   'lead-replacement': {
     name: 'Lead Replacement',
@@ -70,9 +70,9 @@ export const SEO_PAGES: Partial<Record<PageId, SeoEntry>> = {
   products: {
     name: 'Products',
     path: '/products',
-    title: 'Battery Products and Specifications | AxiWatt',
+    title: 'Battery Products & Energy Solutions | AXIWATT',
     description:
-      'Compare AxiWatt battery models by capacity, voltage and chemistry, and download datasheets for your project.',
+      'Browse AXIWATT battery products and energy solutions for storage, electric mobility and telecom applications. Explore product features and specifications.',
   },
   manufacturing: {
     name: 'Manufacturing',
@@ -91,9 +91,9 @@ export const SEO_PAGES: Partial<Record<PageId, SeoEntry>> = {
   contact: {
     name: 'Contact',
     path: '/contact',
-    title: 'Contact AxiWatt | Request a Battery Quote',
+    title: 'Contact AXIWATT | Battery Solutions Enquiries',
     description:
-      'Contact AxiWatt for battery quotes, technical support and partnerships. Call +91 7416623434 or email info@axiwatt.com.',
+      'Contact AXIWATT for enquiries about battery energy storage, EV batteries and telecom power solutions. Get in touch to discuss your requirements.',
   },
 };
 

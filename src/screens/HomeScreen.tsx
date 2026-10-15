@@ -52,6 +52,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           alt="Clean Energy Battery Storage Facility at twilight"
           className="absolute inset-0 w-full h-full object-cover object-center"
           referrerPolicy="no-referrer"
+          fetchPriority="high"
         />
         {/* Dark crimson/dusk gradient overlay matching Image 1 */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-transparent" />
@@ -135,6 +136,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               alt="Sustainable solar and eco-smart clean energy innovation campus"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
@@ -208,6 +211,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               alt="Lush green forest river horseshoe bend"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
@@ -238,6 +243,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                 alt={item.name}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent" />
               <div className="relative z-10 text-white space-y-1">
@@ -278,6 +285,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                   alt={item.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="p-6 space-y-3 flex-grow flex flex-col justify-between">

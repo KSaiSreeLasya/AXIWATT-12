@@ -72,10 +72,7 @@ export const Footer: React.FC<FooterProps> = ({
             <p className="text-neutral-300 font-medium">
               AxiWatt Group | Best Lithium-ion Battery Manufacturer in India
             </p>
-            <p>A-36, Industrial Development Area, Nacharam,</p>
-            <p>Secunderabad, Hyderabad, Telangana 500076</p>
-            <p className="pt-2 font-mono text-neutral-300">+91 7416623434</p>
-            <p className="font-mono text-neutral-300">info@axiwatt.com</p>
+            <p className="pt-2 font-mono text-neutral-300">info@axiwatt.com</p>
           </div>
         </div>
 
